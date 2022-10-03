@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: min-content;
-    background-color: aqua;
+    background-color: rgb(0, 255, 225);
     align-items: center;
     text-align: center;
     padding: 5px;
@@ -38,18 +38,18 @@ body {
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: rgb(61, 184, 225);
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px rgb(228, 202, 202);
 }
 
 #btn:hover {
-    background-color: #3e8e41
+    background-color: blue;
 }
 
 #btn:active {
-    background-color: #3e8e41;
+    background-color: darkblue;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
